@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrimaria: #000;
+    --corSecundaria: rgb(18, 18, 206);
+    --cordoBotaoSelecionado: #4d4b4b;
+    --resultado: rgb(73, 80, 7);
+    --fonteDoBotao: #fff;
+    --bordaDoInput: #585353;
+    
+}

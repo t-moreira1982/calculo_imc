@@ -1,0 +1,9 @@
+
+
+.title {
+    color: var(--corPrimaria);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}

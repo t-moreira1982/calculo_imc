@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.label {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid var(bordaDoInput);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--corPrimaria);
+    color: var(--fonteDoBotao);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--cordoBotaoSelecionado);
+    color: var(--corPrimaria);
+}
+
+.resultado {
+    font-size: 50px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.imc {
+    color: var(--corSecundaria);
+}
+
+.categoria {
+    color: var(--resultado);
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.resCategoria {
+    color: var(--corSecundaria)
+}
